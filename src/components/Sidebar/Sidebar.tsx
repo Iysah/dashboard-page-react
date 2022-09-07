@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 
 import { FaUserTie, FaBook, FaTicketAlt, FaChartPie, FaTags, FaLightbulb } from 'react-icons/fa';
-import { RiHomeSmileFill, RiSettings3Fill, RiTeamFill } from 'react-icons/ri'
+import { RiHomeSmileFill, RiSettings3Fill, RiTeamFill } from 'react-icons/ri';
 
-import Section from './style';
+import { Wrapper } from '../Navbar/style';
+
+
 
 const Sidebar = () => {
   const [currentLink, setCurrentLink ] = useState(1);
 
   return (
     <>
-      <Section>
+      <Wrapper>
         <div className='top'>
           <div className='brand'>
             <RiHomeSmileFill />
@@ -79,7 +81,7 @@ const Sidebar = () => {
           </ul>
 
         </div>
-      </Section>
+      </Wrapper>
     </>
   )
 }

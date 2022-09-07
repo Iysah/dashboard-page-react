@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Section = styled.section`
+export const Wrapper = styled.section`
   position: fixed;
   left: 0;
   background-color: #191c24;
