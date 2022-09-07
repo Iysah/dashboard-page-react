@@ -1,0 +1,74 @@
+[
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "completed"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "completed"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "completed"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "pending"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "pending"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "completed"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "completed"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "order no": "Abuja",
+        "cost": "For Sale",
+        "property": "7",
+        "payment method": "transfer",
+        "date": "03 - 05 - 2022",
+        "status": "failed"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "3 Bedroom ",
+        "location": "Abuja",
+        "status": "For Sale",
+        "bids": "4"
+    },
+    {
+        "name": "4 Bedroom Duplex",
+        "location": "Abuja",
+        "status": "For Rent",
+        "bids": "6"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "location": "Abuja",
+        "status": "For Sale",
+        "bids": "7"
+    },
+    {
+        "name": "3 Bedroom Detach",
+        "location": "Abuja",
+        "status": "For Sale",
+        "bids": "7"
+    }
+]
