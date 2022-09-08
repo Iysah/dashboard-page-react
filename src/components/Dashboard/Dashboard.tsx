@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Customers from './Customers'
-import Navbar from './Navbar/Navbar';
-import Analytics from './Analytics';
-import Transaction from './Transaction';
-import Properties from './Properties';
-import Stock from './Stock';
-import Order from './Order';
-import Messages from './Messages';
-import Agents from './Agents';
+import Customers from '../Customers/Customers'
+import Navbar from '../Navbar/Navbar';
+import Analytics from '../Analytics/Analytics';
+import Transaction from '../Transaction/Transaction';
+import Properties from '../Properties/Properties';
+import Stock from '../Stocks/Stock';
+import Order from '../Order/Order';
+import Messages from '../Messages/Messages';
+import Agents from '../Agents/Agents';
 
 const Dashboard = () => {
   return (

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { FaUserTie, FaBook, FaTicketAlt, FaChartPie, FaTags, FaLightbulb } from 'react-icons/fa';
 import { RiHomeSmileFill, RiSettings3Fill, RiTeamFill } from 'react-icons/ri';
 
-import { Wrapper } from '../Navbar/style';
+import { Wrapper } from './style';
 
 
 

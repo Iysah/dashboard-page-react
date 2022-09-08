@@ -1,11 +1,15 @@
-import styled from 'styled-components';
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import { colors } from "../../utils/theme";
+
+const { primaryColor, textColor, sectionColor } = colors;
 
 export const Wrapper = styled.section`
   position: fixed;
   left: 0;
-  background-color: #191c24;
+  background-color: ${sectionColor};
   height: 100vh;
-  /* width: 18vw; */
+  width: 18vw;
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
@@ -31,12 +35,12 @@ export const Wrapper = styled.section`
       border-bottom: 1px solid #606063;
 
       svg {
-        color: #3751FF;
+        color: ${textColor};
         font-size: 2rem;
       }
       span {
         font-size: 2rem;
-        color: #3751FF;
+        color: ${textColor};
       }
     }
     .toggle {

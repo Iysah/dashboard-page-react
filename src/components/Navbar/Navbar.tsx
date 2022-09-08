@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { FiUnlock } from 'react-icons/fi';
+// import logo from '../../assets/logo.svg';
+
 import { AuthLink, Container, Logo, NavLinks, Right, NavLink, Wrapper } from './style'
-import { FiUnlock } from 'react-icons/fi'
-import logo from '../../assets/logo.svg'
 
 const Navbar = () => {
   const location = useLocation()
@@ -13,7 +14,7 @@ const Navbar = () => {
         <Wrapper>
             <Logo>
                 <Link to="/">
-                    <img src={logo} alt='logo' />
+                    {/* <img src={logo} alt='logo' /> */}
                 </Link>
             </Logo>
             <Right>
