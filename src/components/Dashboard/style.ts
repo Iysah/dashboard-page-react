@@ -12,5 +12,8 @@ export const Section = styled.section`
             grid-template-columns: repeat(2, 1fr);
             gap: 1rem;
         }
+        .row-one {
+            position: relative;
+        }
     }
 `

@@ -1,3 +1,4 @@
+import { hover } from "@testing-library/user-event/dist/hover";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { colors } from "../../utils/theme";
@@ -77,13 +78,13 @@ export const Wrapper = styled.section`
             display: flex;
             justify-content: flex-start;
             gap: 1rem;
-            color: #f4f4f4;
+            color: ${textColor};
           }
         }
         .active {
           background-color: #363740a4;
           a {
-            color: #8c8c8d;
+            color: ${hoverText};
           }
         }
       }
@@ -108,7 +109,7 @@ export const Wrapper = styled.section`
           transition: all 0.25s ease-in-out;
 
           a {
-            color: #8c8c8d;
+            color: ${hoverText};
           }
         }
         
@@ -117,7 +118,7 @@ export const Wrapper = styled.section`
           display: flex;
           justify-content: flex-start;
           gap: 1rem;
-          color: #f4f4f4;
+          color: ${textColor};
         }
       }    
     }

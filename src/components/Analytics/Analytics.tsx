@@ -12,9 +12,13 @@ const Analytics = () => {
             <h2>$12.05</h2>
             <span>+2.5%</span>
           </div>
-          <h3>Pontential growth</h3>
+
+          <div className='icon'>
+            <FiArrowUpRight />
+          </div>
         </div>
-        <FiArrowUpRight />
+
+        <h3>Pontential growth</h3>
       </div>
 
       <div className="analytic">
@@ -23,9 +27,12 @@ const Analytics = () => {
             <h2>$23.01</h2>
             <span>+11.4%</span>
           </div>
-          <h3>Revenue Current</h3>
+
+          <div className='icon'>
+            <FiArrowUpRight />
+          </div>
         </div>
-        <FiArrowUpRight />
+        <h3>Revenue Current</h3>
       </div>
 
       <div className="analytic">
@@ -34,9 +41,12 @@ const Analytics = () => {
             <h2>$8.23</h2>
             <span>-1.5%</span>
           </div>
-          <h3>Daily income</h3>
+
+          <div className='red'>
+            <FiArrowDownLeft />
+          </div>
         </div>
-        <FiArrowDownLeft />
+        <h3>Daily income</h3>
       </div>
 
       <div className="analytic">
@@ -45,9 +55,12 @@ const Analytics = () => {
             <h2>$19.48</h2>
             <span>+5.67%</span>
           </div>
-          <h3>Expenses current</h3>
+
+          <div className='icon'>
+            <FiArrowUpRight />
+          </div>
         </div>
-        <FiArrowUpRight />
+        <h3>Expenses current</h3>
       </div>
     </Section>
   )
