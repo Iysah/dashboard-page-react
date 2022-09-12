@@ -1,8 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Section } from './style'
+
+import Sidebar from '../Sidebar';
 
 import Customers from '../Customers/Customers'
-import Navbar from '../Navbar/Navbar';
 import Analytics from '../Analytics/Analytics';
 import Transaction from '../Transaction/Transaction';
 import Properties from '../Properties/Properties';
@@ -14,16 +15,16 @@ import Agents from '../Agents/Agents';
 const Dashboard = () => {
   return (
     <Section>
-      <Navbar />
+      <Sidebar />
       <div className="grid">
-        <div className="row-one">
+        <div className="row-one single">
           <Analytics />
         </div>
         <div className="row-two">
           <Transaction />
           <Properties />
         </div>
-        <div className="row-three">
+        <div className="row-three single">
           <Stock />
         </div>
         <div className="row-four">
@@ -33,7 +34,7 @@ const Dashboard = () => {
           <Messages />
           <Agents />
         </div>
-        <div className="six">
+        <div className="six single">
           <Customers />
         </div>
       </div>
@@ -41,7 +42,4 @@ const Dashboard = () => {
   )
 }
 
-const Section = styled.section`
-  
-`
 export default Dashboard

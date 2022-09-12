@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { colors } from "../../utils/theme";
 
-const { primaryColor, textColor, sectionColor } = colors;
+const { textColor, sectionColor, hoverText } = colors;
 
 export const Wrapper = styled.section`
   position: fixed;
+  top: 75px;
   left: 0;
   background-color: ${sectionColor};
   height: 100vh;
@@ -66,7 +67,7 @@ export const Wrapper = styled.section`
             transition: all 0.25s ease-in-out;
 
             a {
-              color: #8c8c8d;
+              color: ${hoverText};
             }
           }
 

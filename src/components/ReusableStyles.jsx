@@ -1,9 +1,11 @@
-import React from 'react'
+import { css } from "styled-components";
+import { colors } from "../utils/theme";
 
-const ReusableStyles = () => {
-  return (
-    <div>ReusableStyles</div>
-  )
-}
+const { textColor, sectionColor } = colors;
 
-export default ReusableStyles
+export const cardStyle = css`
+    padding: 1rem 2rem 3rem 2rem;
+    border-radius: 1rem;
+    background-color: ${sectionColor};
+    color: ${textColor};
+`

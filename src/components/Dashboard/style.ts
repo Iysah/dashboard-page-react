@@ -1,5 +1,16 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { colors } from "../../utils/theme";
 
-const { primaryColor, textColor, sectionColor } = colors;
+export const Section = styled.section`
+    .grid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+
+        .row-two {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+`

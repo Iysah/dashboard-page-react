@@ -14,10 +14,10 @@ const Sidebar = () => {
     <>
       <Wrapper>
         <div className='top'>
-          <div className='brand'>
+          {/* <div className='brand'>
             <RiHomeSmileFill />
             <span>MY PROFILE</span>
-          </div>
+          </div> */}
 
           <div className='toggle'></div>
           <div className='links'>

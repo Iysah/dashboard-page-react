@@ -1,32 +1,57 @@
 import React from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { FiUnlock } from 'react-icons/fi';
-// import logo from '../../assets/logo.svg';
+import { BiSearch } from 'react-icons/bi';
+import { CgMenuGridR } from 'react-icons/cg';
+import { BsEnvelopeFill, BsFillBellFill, BsFillCaretDownFill } from 'react-icons/bs';
 
-import { AuthLink, Container, Logo, NavLinks, Right, NavLink, Wrapper } from './style'
+
+import profile from '../../assets/profile.jpg';
+
+import { AuthLink, Container, Logo, NavLinks, Right,  Wrapper, Profile } from './style'
 
 const Navbar = () => {
-  const location = useLocation()
-  const navigate = useNavigate()
   
   return (
     <Container>
         <Wrapper>
             <Logo>
-                <Link to="/">
-                    {/* <img src={logo} alt='logo' /> */}
-                </Link>
+                <a href="/">
+                    <h2 className='logo'>Hom-Halo</h2>
+                </a>
             </Logo>
             <Right>
                 <NavLinks>
-                    <NavLink to="/" isActive={location.pathname === "/"}>Home</NavLink>
-                    <NavLink to="/support" isActive={location.pathname === "/support"}>Support</NavLink>
-                    <NavLink to="/contact" isActive={location.pathname === "/contact"}>Contact</NavLink>
+                    <div className='search'>
+                        <BiSearch />
+                        <input type="search" placeholder='Search' />
+                    </div>
                 </NavLinks>
                 <AuthLink>
-                    <Link to="/login"><FiUnlock /> Login</Link>
-                    <button onClick={() => navigate("/signup")}>Get Started</button>
+                    <button className='add-prop'>Add a property</button>
+                    <ul>
+                        <li>
+                            <a href='#'>
+                                <CgMenuGridR />
+                            </a>
+                        </li>
+                        <li className='message'>
+                            <a href='#'>
+                                <BsEnvelopeFill />
+                                <span className='envy-bage '></span>
+                            </a>
+                        </li>
+                        <li className='notification'>
+                            <a href='#'>
+                                <BsFillBellFill />
+                                <span></span>
+                            </a> 
+                        </li>
+                    </ul>
                 </AuthLink>
+                <Profile>
+                    <img src={profile} alt='Profile pic' />
+                    <p>Iysah Yusuf</p>
+                    <BsFillCaretDownFill/>
+                </Profile>
             </Right>
         </Wrapper>
     </Container>
