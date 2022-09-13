@@ -4,13 +4,14 @@ import { colors } from "../../utils/theme";
 const { hoverText, textColor, sectionColor } = colors;
 
 export const Section = styled.div`
-    width: 75%;
     position: absolute;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    left: 19vw;
+    left: 18vw;
     top: 85px;
+    margin-top: 3rem;
+    margin: 0 1rem;
 
     .analytic {
         padding: 2.2rem 2rem 2.2rem 2rem;

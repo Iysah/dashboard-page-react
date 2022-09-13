@@ -10,8 +10,8 @@ export const Wrapper = styled.section`
   top: 75px;
   left: 0;
   background-color: ${sectionColor};
-  height: 100vh;
   width: 18vw;
+  height: 100%;
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
