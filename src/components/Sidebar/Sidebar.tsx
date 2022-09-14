@@ -14,10 +14,9 @@ const Sidebar = () => {
     <>
       <Wrapper>
         <div className='top'>
-          {/* <div className='brand'>
-            <RiHomeSmileFill />
-            <span>MY PROFILE</span>
-          </div> */}
+          <div className='brand'>
+              <h2 className='logo'>Hom-Halo</h2>
+          </div>
 
           <div className='toggle'></div>
           <div className='links'>

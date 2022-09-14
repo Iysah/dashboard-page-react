@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const Section = styled.section`
     width: 100%;
     top: 75px;
-    left: 0;
+
+    display: grid;
+    grid-template-columns: 15% 75%;
 
     .grid {
-        width: 75%;
-        left: 19vw;
+        /* width: 75%; */
+        /* left: 19vw; */
 
         display: flex;
         justify-content: center;
@@ -16,7 +18,7 @@ export const Section = styled.section`
 
         .row-two {
             position: relative;
-            width: 100%;
+            width: 80%;
             gap: 1rem;
             margin-top: 3rem;
             margin: 0 1rem;
@@ -26,7 +28,7 @@ export const Section = styled.section`
             gap: 1rem;
         }
         .row-one {
-            width: 100%;
+            width: 80%;
             position: relative;
         }
     }

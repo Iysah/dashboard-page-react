@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Dashboard from './components/Dashboard';
-import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      <Sidebar />
       <Dashboard />
     </div>
   );

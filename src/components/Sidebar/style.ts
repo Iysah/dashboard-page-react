@@ -36,13 +36,9 @@ export const Wrapper = styled.section`
       padding-bottom: 2rem;
       border-bottom: 1px solid #606063;
 
-      svg {
-        color: ${textColor};
-        font-size: 2rem;
-      }
-      span {
-        font-size: 2rem;
-        color: ${textColor};
+      h2 {
+        font-size: 2.2rem;
+        color: ${hoverText};
       }
     }
     .toggle {
