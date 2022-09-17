@@ -38,11 +38,11 @@ const Analytics = () => {
       <div className="analytic">
         <div className="content">
           <div className='rate'>
-            <h2>$8.23</h2>
-            <span>-1.5%</span>
+            <h2>$08.23</h2>
+            <span className='red-text'>-1.5%</span>
           </div>
 
-          <div className='red'>
+          <div className='icon red'>
             <FiArrowDownLeft />
           </div>
         </div>

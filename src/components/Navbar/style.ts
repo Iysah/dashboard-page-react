@@ -9,44 +9,27 @@ interface INavLink {
     isActive: boolean
 }
 
+export const Wrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
 
-export const Container = styled.div`
     height: 75px;
-    width: 100%;
     position: fixed;
-    top: 0;
     background-color: ${sectionColor};
     box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
     z-index: 999;
-`;
-export const Wrapper = styled.div`
-    width: 95%;
-    /* max-width: 1300px; */
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     font-size: 14px;
+    padding: 0 .7rem;
+    border-radius: 5px;
 `;
-export const Logo = styled.div`
+
+export const NavLinks = styled.div`
     margin-right: 6rem;
 
-
-    a {
-        text-decoration: none;
-
-        h2 {
-            font-size: 2.2rem;
-            color: ${hoverText};
-        }
-    }
-    
-`;
-export const NavLinks = styled.div`
-    margin-right: 10px;
-
     .search {
+        margin-left: 1rem;
         background-color: transparent;
         display: flex;
         align-items: center;
@@ -74,27 +57,11 @@ export const NavLinks = styled.div`
     }
 `;
 
-export const Right = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* gap: 4rem; */
-
-
-`;
-// export const NavLink = styled(Link)`
-//     color: ${(props: INavLink) => props.isActive ?  primaryColor : textColor };
-//     transition: 0.5s linear;
-//     :hover {
-//         color: ${primaryColor};
-//     }
-//     margin-right: 20px;
-// `;
-
 export const AuthLink = styled.div`
     display: flex;
     align-items: center;
-    position: relative;
+    margin-left: 6rem;
+
     ul {
         display: flex;
         align-items: center;
@@ -178,6 +145,8 @@ export const Profile = styled.div`
     justify-content: flex-end;
     align-items: center;
 
+    margin-left: 2rem;
+
     img {
         width: 35px;
         height: 35px;
@@ -191,5 +160,9 @@ export const Profile = styled.div`
     svg {
         color: ${textColor};
         margin-left: 1rem;
+
+        :hover {
+            cursor: pointer;
+        }
     }
 `

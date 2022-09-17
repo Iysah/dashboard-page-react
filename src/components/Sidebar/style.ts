@@ -7,7 +7,7 @@ const { textColor, sectionColor, hoverText } = colors;
 
 export const Wrapper = styled.section`
   position: fixed;
-  top: 75px;
+  top: 0;
   left: 0;
   background-color: ${sectionColor};
   width: 18vw;

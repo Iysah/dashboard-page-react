@@ -39,7 +39,7 @@ const data = [
 const Transfer = () => {
   return (
     <Section>
-      <h4 title='Transfer History'>Transfer History</h4>
+      {/* <h4 title='Transfer History'>Transfer History</h4>
       <div className="history">
         <Top>
           <div className="pie-chart">
@@ -153,11 +153,11 @@ const Transfer = () => {
                       translateY: 56,
                       itemsSpacing: 0,
                       itemWidth: 100,
-                      itemHeight: 18,
+                      itemHeight: 16,
                       itemTextColor: '#999',
                       itemDirection: 'left-to-right',
                       itemOpacity: 1,
-                      symbolSize: 18,
+                      symbolSize: 16,
                       symbolShape: 'circle',
                       effects: [
                           {
@@ -186,7 +186,7 @@ const Transfer = () => {
             </div>
           </Earnings>
         </Bottom>
-      </div>
+      </div> */}
     </Section>
   )
 }

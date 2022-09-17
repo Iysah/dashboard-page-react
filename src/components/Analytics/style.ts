@@ -4,33 +4,28 @@ import { colors } from "../../utils/theme";
 const { hoverText, textColor, sectionColor } = colors;
 
 export const Section = styled.div`
-    position: absolute;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    left: 18vw;
-    top: 85px;
-    margin-top: 3rem;
-    margin: 0 1rem;
+    margin-top: 2rem;
+
+    position: absolute;
 
     .analytic {
-        padding: 2.2rem 2rem 2.2rem 2rem;
+        padding: 1.2rem 1rem 1.2rem 1rem;
         border-radius: 0.25rem;
         background-color: ${sectionColor};
         color: ${textColor};
 
-
-        /* padding: 1rem; */
         display: flex;
-        justify-content: start;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        /* gap: 1rem; */
         transition: all .5s ease-in-out;
         text-align: left;
         .content {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             flex-direction: row;
             align-items: center;
             .icon {
@@ -64,15 +59,26 @@ export const Section = styled.div`
                 margin-right: 4rem;
                 h2 {
                     color: ${hoverText};
-                    margin-right: .9rem;
+                    margin-right: .5rem;
+                    font-size: 24px;
                 }
                 span {
                     color: #00d25b;
+                    font-size: 12px;
+                    align-self: flex-start;
+                }
+                .red-text {
+                    color: #fc424a;
                 }
             }
         }
         h3 {
             text-align: start;
+            align-self: start;
+            color: ${hoverText};
+            font-size: 18px;
+            text-transform: capitalize;
+            font-weight: 500;
         }
     }
 `

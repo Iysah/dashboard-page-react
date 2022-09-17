@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section } from './style'
 
-import Sidebar from '../Sidebar';
+import Navbar from '../Navbar';
 
 import Customers from '../Customers/Customers'
 import Analytics from '../Analytics/Analytics';
@@ -15,22 +15,22 @@ import Agents from '../Agents/Agents';
 const Dashboard = () => {
   return (
     <Section>
-      <Sidebar />
+      <Navbar />
       <div className="grid">
         <div className="row-one single">
           <Analytics />
         </div>
-        <div className="row-two">
+        <div className="row-two double">
           <Transaction />
           <Properties />
         </div>
         <div className="row-three single">
           <Stock />
         </div>
-        <div className="row-four">
+        <div className="row-four .single">
           <Order />
         </div>
-        <div className="row-five">
+        <div className="row-five double">
           <Messages />
           <Agents />
         </div>

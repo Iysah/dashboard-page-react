@@ -4,12 +4,11 @@ import { colors } from "../../utils/theme";
 const { hoverText, textColor, sectionColor } = colors;
 
 export const Section = styled.section`
-    padding: 2.2rem 2rem 2.2rem 2rem;
+    padding: 1.2rem 1rem 1.2rem 1rem;
     border-radius: 0.25rem;
     background-color: ${sectionColor};
     color: ${textColor};
 
-    position: absolute;
 
     h4 {
         color: ${textColor};
@@ -32,8 +31,8 @@ export const Top = styled.div`
 
     .pie-chart {
         margin: 0 auto;
-        width: 100px;
-        height: 100px;
+        width: 350px;
+        height: 350px;
     }
     h1 {
         color: ${textColor};
